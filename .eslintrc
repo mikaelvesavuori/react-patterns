@@ -1,0 +1,23 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:jest/recommended",
+		"plugin:react/recommended",
+		"airbnb",
+		"prettier"
+	],
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"paths": ["src"]
+			}
+		}
+	},
+	"rules": {
+		"func-names": ["error", "never"]
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	}
+}
